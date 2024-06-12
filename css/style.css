@@ -51,7 +51,7 @@ b {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    /* height: 95vh; */
+    height: 95vh;
 }
 
 .font {
@@ -67,13 +67,9 @@ b {
     margin-bottom: 10px;
 }
 
-.w-p {
-    width: 500px;
-}
-
 .btn {
     background: #524fdd;
-    padding: 10px;
+    padding: 15px 100px;
     text-transform: uppercase;
     border-radius: 10px;
     box-shadow: -3px -2px 4px #03003b;
@@ -86,6 +82,7 @@ b {
 }
 
 /* frame work end */
+
 /* navbar  */
 .navbar {
     display: flex;
@@ -115,6 +112,7 @@ b {
 }
 
 /* navbar end */
+
 /* main section */
 h1 {
     text-shadow: -3px -1px 4px var(--secondary-color);
@@ -181,7 +179,7 @@ main {
 }
 
 .details {
-    padding: 5px;
+    padding: 10px;
     width: 100%;
 }
 
@@ -190,7 +188,7 @@ main {
 }
 
 
-/* media query */
+/* media query tablet*/
 @media (max-width:990px) {
     .container {
         width: var(--md-container);
@@ -199,6 +197,10 @@ main {
 
     main {
         margin: 0;
+    }
+
+    .font {
+        font-size: 6rem;
     }
 
     .hamburger {
@@ -237,19 +239,14 @@ main {
         text-align: center;
     }
 
-    .font {
-        font-size: 6rem;
-    }
-
-    .w-p {
-        width: 100%;
-    }
 }
 
+/* small devices */
 @media (max-width:600px) {
     .logo {
         width: 100px;
     }
+
     .font {
         font-size: 3rem;
     }
@@ -259,4 +256,56 @@ main {
         margin-bottom: 10px;
     }
 
+    .btn {
+        padding: 10px 30px;
+    }
+
+    .text-light {
+        text-align: center;
+    }
+}
+
+/* larger screen */
+@media (min-width:1450px) {
+    .font {
+        font-size: 9rem;
+    }
+
+    .col-4 {
+        width: 49%;
+    }
+
+    .col-4:last-child {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    main {
+        margin: 0;
+    }
+
+    .m-y {
+        margin-bottom: 50px;
+    }
+
+    p {
+        font-size: 30px;
+    }
+
+    .btn {
+        padding: 30px 150px;
+    }
+
+    .bg {
+        padding: 9px 60px;
+    }
+
+    h4 {
+        font-size: 40px;
+    }
+
+    .details {
+        padding: 15px;
+    }
 }
