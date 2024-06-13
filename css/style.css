@@ -411,6 +411,11 @@ footer .icon {
         height: 100%;
     }
 
+    #message .row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
     header {
         margin: 0;
         height: 100%;
