@@ -200,7 +200,7 @@ menu li a {
 }
 
 main {
-    background-image: linear-gradient(116deg, #00a108af, #c70000a3), url(/img/img2.jpg);
+    background-image: linear-gradient(116deg, #00a108af, #c70000a3), url('/img/img2.jpg');
     display: flex;
     align-items: center;
     justify-content: center;
@@ -269,7 +269,7 @@ main {
 
 /* mission */
 .about {
-    background: linear-gradient(116deg, #c70000, #20832fd9), url(/img/bg.jpg);
+    background: linear-gradient(116deg, #c70000, #20832fd9), url('/img/bg.jpg');
     background-position: center;
     color: var(--white);
 }
