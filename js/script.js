@@ -7,6 +7,20 @@ hamburger.addEventListener('click', () => {
     menu.classList.toggle('active')
 })
 
+// topbtn function
+let scrollBtn=document.querySelector('.topbtn')
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 200) { // adjust the value to your liking
+    scrollBtn.style.display = 'block';
+  } else {
+    scrollBtn.style.display = 'none';
+  }
+});
+
+scrollBtn.addEventListener('click', () => {
+  window.scrollTo({ top: 0, behavior: 'mooth' });
+});
+
 // slideshow function
 var slideIndex = 0;
 showSlides();

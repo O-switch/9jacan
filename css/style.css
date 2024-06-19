@@ -567,3 +567,15 @@ footer .icon {
         right: 19px;
     }
 }
+
+/*  topbtn*/
+.topbtn {
+    position: fixed;
+    display: none;
+    right: 20px;
+    bottom: 9px;
+    background: var(--primary-color);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
