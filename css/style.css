@@ -152,11 +152,10 @@ hr {
 }
 
 .logo {
-    font-weight: 900;
-    color: red;
     cursor: pointer;
-    width: 200px;
+    width: 150px;
     border-radius: 10px 0 10px;
+    height: 66px;
 }
 
 
@@ -208,7 +207,7 @@ hr {
 }
 
 @keyframes fade {
-    from {
+    from  {
         opacity: .4
     }
 
