@@ -499,6 +499,7 @@ footer .icon {
         background: #000000ad;
         text-align: center;
         display: none;
+        z-index: 3;
     }
 
     menu li {
