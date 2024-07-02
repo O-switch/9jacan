@@ -72,9 +72,6 @@ h3 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    /* background-image:
-    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
-    url('/img/img2.jpg'); */
 }
 
 .grid-container {
@@ -207,7 +204,7 @@ hr {
 }
 
 @keyframes fade {
-    from  {
+    from {
         opacity: .4
     }
 
@@ -406,9 +403,10 @@ header {
 /* pricing */
 
 /* footer */
-footer .h2{
+footer .h2 {
     color: var(--white);
 }
+
 footer a {
     color: var(--light-green);
 }
@@ -484,6 +482,7 @@ footer .icon {
         background-color: white;
         padding: 10px;
         border-radius: 5px;
+        cursor: pointer;
         z-index: 10;
     }
 
@@ -505,7 +504,8 @@ footer .icon {
     menu li {
         margin-bottom: 20px;
     }
-    .flex{
+
+    .flex {
         display: block;
     }
 
@@ -522,10 +522,11 @@ footer .icon {
 
 /* mobile devices */
 @media (max-width:750px) {
-    .font{
+    .font {
         font-size: 3.5rem;
     }
 }
+
 /* mobile devices */
 @media (max-width:600px) {
     .logo {
@@ -535,7 +536,8 @@ footer .icon {
     .font {
         font-size: 2.5rem;
     }
-    header p{
+
+    header p {
         font-size: 1rem;
     }
 
