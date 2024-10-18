@@ -24,6 +24,10 @@ body {
     --sm-container: 90%;
 }
 
+strong {
+    color: #ffd600;
+}
+
 /* framework */
 img {
     width: 100%;
@@ -354,7 +358,7 @@ header {
 .pcard {
     position: relative;
     background: #4ead73d4;
-    color: var(--black);
+    color: var(--white);
     margin: 20px;
     padding: 20px;
     border-radius: 10px;
